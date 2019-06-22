@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giftastic</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class=container>
+        <h1>Binge-Worthy Shows</h1>
+
+        <!-- Buttons will get dumped here -->
+        <div id="buttonsView"></div>
+
+        <form id="showForm">
+            <label for="showInput">Whatcha watching?</label>
+            <input type="text" id="showInput">
+            <br>
+
+            <!-- Button triggers new movie to be added -->
+            <input id="addShow" type="submit" value="Submit">
+        </form>
+
+        <!-- Shows will Get Dumped Here -->
+        <div class="grid-container">
+            <div id="showView"></div>
+        </div>
+    </div>
+
+
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>

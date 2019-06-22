@@ -1,0 +1,16 @@
+#showView {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.grid-container {
+    background-color: aqua;
+}
+
+img {
+    width: 500px;
+    height: 250px;
+    padding: auto;
+}
