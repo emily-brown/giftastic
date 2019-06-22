@@ -74,7 +74,7 @@ $("#addShow").on("click", function (event) {
 
 // Function to animate gifs once clicked
 
-$(".gif").on("click", function () {
+$("#showView").on("click", ".gif", function () {
 
     console.log("clicked!")
     // The attr jQuery method allows us to get or set the value of any attribute on our HTML element
