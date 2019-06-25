@@ -91,23 +91,6 @@ $("#showView").on("click", ".gif", function () {
     }
 });
 
-// function changeState(){
-//     var state = $(this).attr("data-state");
-//     var animateImage = $(this).attr("data-animate");
-//     var stillImage = $(this).attr("data-still");
-
-//     if (state == "still") {
-//         $(this).attr("src", animateImage);
-//         $(this).attr("data-state", "animate");
-//     }
-
-//     else if (state == "animate") {
-//         $(this).attr("src", stillImage);
-//         $(this).attr("data-state", "still");
-//     }
-// }
-
-
 $(document).on("click", ".show-btn", displayShows);
 
 renderButtons();
