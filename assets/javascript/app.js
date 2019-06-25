@@ -4,7 +4,7 @@ let shows = ["The Office", "Parks and Recreation", "Arrested Development", "Comm
 // Function to display shows and re-loads the HTML to display the correct content
 function displayShows() {
     let show = $(this).attr("show-name");
-    let queryURL = "http://api.giphy.com/v1/gifs/search?q=" + show + "&api_key=nugr7GYR4VLjwLgNMFQPJs6BBgxTVnoP&limit=9";
+    let queryURL = "http://api.giphy.com/v1/gifs/search?q=" + show + "&api_key=nugr7GYR4VLjwLgNMFQPJs6BBgxTVnoP&limit=12";
 
     // AJAX call for the specific show button being clicked
     $.ajax({
