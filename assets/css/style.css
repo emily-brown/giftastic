@@ -13,6 +13,8 @@ body {
     border-image-repeat: no-repeat;
 }
 
+/* Styling for gifs */
+
 #showView {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -31,6 +33,8 @@ img {
 img:hover {
     cursor: pointer;
 }
+
+/* Styling for text */
 
 h1 {
     text-align: center;
@@ -85,6 +89,8 @@ button:hover {
     background-color: orangered;
     cursor: pointer;
 }
+
+/* Styling the input fields*/
 
 form {
     display: flex;
