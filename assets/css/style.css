@@ -106,20 +106,16 @@ label {
     padding: 1vw;
     font-family: 'Love Ya Like A Sister', Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-    width: 20vw;
 }
 
 #showInput{
-    width: 20vw;
     font-size: 1em;
 }
 
 #addShow {
-    /* padding: 5vh; */
     border-radius: 25px;
     height: 50px;
     width: 150px;
-    /* width: 7vw; */
     margin-left: 1%;
     font-family: 'Love Ya Like A Sister', Arial, Helvetica, sans-serif;
     font-size: 1rem;
