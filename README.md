@@ -16,7 +16,6 @@ Click any button to display some of TV's most binge-worthy shows or add to the l
 
 ## Site Functionality and Features 
 ```
-Functionality: 
   - The screen will load with 4 buttons that each have a title of a tv show. 
   - Once a button is clicked, 12 gifs will apper with their correspoinding rating provided by the Giphy API
   - Each gif will load as a still image. Click the image to animate it into a gif.
